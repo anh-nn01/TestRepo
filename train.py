@@ -5,5 +5,4 @@ import torchvision.datasets as datasets
 import torchvision.transforms as transforms
 import cv2
 
-models = models.resnet34(pretrained=True)
-
+models = models.shufflent_v2_x1_5(pretrained=True)
